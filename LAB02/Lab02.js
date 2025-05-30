@@ -51,3 +51,7 @@ if (randomNum <= 0.34) {
 } else {
   computerSelection = 'ROCK';
 }
+
+// Show both choices
+console.log(`User selected: ${userSelection}`);
+console.log(`Computer selected: ${computerSelection}`);
