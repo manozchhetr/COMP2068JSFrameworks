@@ -15,3 +15,28 @@ prompt.get(['userInput'], function (err, result) {
   const inputRaw = result.userInput.toString().trim().toUpperCase();
   let userSelection = '';
 });
+
+// Check user input and set the user's choice
+if (inputRaw === 'ROCK' || inputRaw === 'R') {
+  userSelection = 'ROCK';
+} else if (inputRaw === 'PAPER' || inputRaw === 'P') {
+  userSelection = 'PAPER';
+} else if (inputRaw === 'SCISSORS' || inputRaw === 'S') {
+  userSelection = 'SCISSORS';
+} else {
+  // If user enters a number between 0 and 1, decide the choice
+  const inputNum = parseFloat(inputRaw);
+  if (!isNaN(inputNum) && inputNum >= 0 && inputNum <= 1) {
+    if (inputNum <= 0.34) {
+      userSelection = 'PAPER';
+    } else if (inputNum <= 0.67) {
+      userSelection = 'SCISSORS';
+    } else {
+      userSelection = 'ROCK';
+    }
+  } else {
+    // Invalid input
+    console.log("Invalid input. Please enter R, P, S, full word, or a number between 0.00 and 1.00.");
+    return;
+  }
+}
