@@ -55,3 +55,16 @@ if (randomNum <= 0.34) {
 // Show both choices
 console.log(`User selected: ${userSelection}`);
 console.log(`Computer selected: ${computerSelection}`);
+
+// Check who wins
+if (userSelection === computerSelection) {
+  console.log("It's a tie");
+} else if (
+  (userSelection === 'ROCK' && computerSelection === 'SCISSORS') ||
+  (userSelection === 'PAPER' && computerSelection === 'ROCK') ||
+  (userSelection === 'SCISSORS' && computerSelection === 'PAPER')
+) {
+  console.log("User Wins");
+} else {
+  console.log("Computer Wins");
+}
