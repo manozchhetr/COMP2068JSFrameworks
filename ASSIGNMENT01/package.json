@@ -1,0 +1,15 @@
+{
+  "name": "assignment1-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio website using Node, Express, and Handlebars",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Manoj chhetri",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0"
+  }
+}
