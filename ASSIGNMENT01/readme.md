@@ -19,7 +19,6 @@ The site is part of my **Assignment 1** for COMP 2068 and is deployed live on th
 ---
 
 ## 📁 GitHub Repository
-(*Replace this with your actual GitHub repo link*)
 👉 [GitHub Repository Link](https://github.com/manozchhetr/COMP2068JSFrameworks/tree/main/ASSIGNMENT01)  
 
 
