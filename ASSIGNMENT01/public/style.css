@@ -1,0 +1,159 @@
+/* Reset and base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+/* Homepage photo - centered, max width 300px */
+.full-photo {
+  display: block;
+  max-width: 3px;  /* Keeps photo reasonable size */
+  width: 10%;
+  height: auto;
+  margin: 20px auto; /* Center with space above and below */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+/* Container for all pages */
+.container {
+  max-width: 900px;
+  margin: 20px auto 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 20px 0 10px 0;
+  color: #444;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Lists */
+ul {
+  list-style-type: disc;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  text-align: left;
+  color: #555;
+}
+ul li {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+/* Project list styling */
+.project-list {
+  text-align: left;
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+}
+.project-item {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+.project-item h2 {
+  color: #222;
+  margin-bottom: 8px;
+}
+
+/* Contact page styling */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+  font-size: 1.05rem;
+  color: #333;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  resize: vertical;
+  font-family: inherit;
+}
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Horizontal rule for separation */
+hr {
+  margin: 30px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .container {
+    margin: 10px auto 30px auto;
+    padding: 15px;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  ul {
+    padding-left: 20px;
+  }
+}
