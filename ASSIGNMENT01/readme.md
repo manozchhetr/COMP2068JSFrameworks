@@ -14,13 +14,14 @@ The site is part of my **Assignment 1** for COMP 2068 and is deployed live on th
 
 ## 🌐 Live Site
 👉 [Click here to view my portfolio](https://comp2068jsframeworks-1-6mhh.onrender.com)  
-(*Replace this with your actual Render or cloud deployment URL*)
+
 
 ---
 
 ## 📁 GitHub Repository
-👉 [GitHub Repository Link](https://github.com/your-username/COMP2068-Assignment1)  
 (*Replace this with your actual GitHub repo link*)
+👉 [GitHub Repository Link](https://github.com/manozchhetr/COMP2068JSFrameworks/tree/main/ASSIGNMENT01)  
+
 
 ---
 
